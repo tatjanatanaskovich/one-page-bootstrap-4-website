@@ -1,0 +1,33 @@
+{
+  "name": "one-page-bootstrap-site",
+  "version": "1.0.0",
+  "description": "One page simple Bootstrap Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "bootstrap",
+    "website"
+  ],
+  "author": "Tatjana Tanaskovic",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.4.1",
+    "merge-stream": "^2.0.0",
+    "popper.js": "^1.15.0"
+  }
+}
