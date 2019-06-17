@@ -1,1 +1,13 @@
 //Layout Styles
+
+header.masthead {
+	background-color: #2C3E50;
+	padding-top: 10rem !important;
+  padding-bottom: calc(10rem - #{$navbar-height}) !important;
+}
+
+.hero-image {
+	width: 100% \9; 
+	height: auto;
+	margin: auto;
+}

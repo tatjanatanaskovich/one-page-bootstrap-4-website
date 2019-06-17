@@ -12,44 +12,58 @@
   <!-- Icons for this template -->
   <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Stylesheet -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
   <!-- build:css -->
   <link href="assets/css/main.css" rel="stylesheet">
   <!-- endbuild -->
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i> Search </button>
-      </form>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5 pb-5">
+    <div class="container">
+      <a class="navbar-brand text-light font-weight-bold text-uppercase" href="/">Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <main role="main" class="container">
-    <div class="jumbotron text-center">
-      <h1>One Page Bootstrap Website</h1>
-      <p class="lead">This is a one page bootstrap website.</p>
-      <a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" role="button" target="_blank">View Bootstrap Docs &raquo;</a>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <hr class="">
+    <div class="container">
+      <h1 class="text-light text-center text-uppercase pt-4">Header / Hero / Heading Text</h1>
+      <h2 class="text-light text-center pt-4 pb-4">Subheading Text</h2>
     </div>
-  </main>
+    <div class="justify-content-center">
+      <img class="img-fluid hero-image mx-auto d-block" src="/assets/img/laptop.png">
+    </div>
+  </header>
+
 
   <!-- Bootstrap core JavaScript
   ================================================== -->
