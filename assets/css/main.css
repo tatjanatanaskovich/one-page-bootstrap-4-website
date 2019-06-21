@@ -9584,6 +9584,15 @@ header.masthead {
   background-color: #eeeeee;
 }
 
+#portfolio .my-card {
+  background-color: #9a9a9a;
+  color: #ebebeb;
+}
+
+#portfolio .center-button {
+  text-align: center;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #2C3E50;
