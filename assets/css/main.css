@@ -9580,6 +9580,10 @@ header.masthead {
   margin: auto;
 }
 
+#team {
+  background-color: #eeeeee;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #2C3E50;
