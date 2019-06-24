@@ -4,5 +4,5 @@ This is a one page website built with Html5, Css3, Sass, Bootstrap 4, Gulp.js an
 
 * Photoshop Wireframe
 
-    ![Wireframe]()
+    ![](https://github.com/tatjanatanaskovich/one-page-bootstrap-4-website/blob/master/assets/img/wireframe.png)
 
