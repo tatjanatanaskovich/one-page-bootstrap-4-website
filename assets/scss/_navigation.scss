@@ -75,3 +75,19 @@
     }
   }
 }
+
+#footer {
+  color: #cbcbcb;
+  .nav-item {
+    .nav-link {
+      color: $gray-600;
+      &:hover,
+      &:active {
+        color: $dark-blue;
+      }
+      &.active {
+        color: $dark-blue !important;
+      }
+    }
+  }
+}

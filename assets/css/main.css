@@ -9668,3 +9668,19 @@ header.masthead {
     color: #2C3E50;
   }
 }
+
+#footer {
+  color: #cbcbcb;
+}
+
+#footer .nav-item .nav-link {
+  color: #6c757d;
+}
+
+#footer .nav-item .nav-link:hover, #footer .nav-item .nav-link:active {
+  color: #2C3E50;
+}
+
+#footer .nav-item .nav-link.active {
+  color: #2C3E50 !important;
+}
