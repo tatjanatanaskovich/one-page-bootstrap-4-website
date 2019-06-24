@@ -9593,6 +9593,15 @@ header.masthead {
   text-align: center;
 }
 
+#contact {
+  background-color: #eeeeee;
+}
+
+#contact .mybutton {
+  background-color: #2C3E50;
+  color: #E3E5E8;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #2C3E50;

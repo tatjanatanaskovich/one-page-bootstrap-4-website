@@ -24,5 +24,13 @@ header.masthead {
 	.center-button { 
 		text-align: center;
 	}
-	
+}
+
+#contact {
+	background-color: #eeeeee;
+
+	.mybutton {
+		background-color: $dark-blue;
+		color: #E3E5E8;
+	}
 }
